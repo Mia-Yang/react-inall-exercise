@@ -1,3 +1,33 @@
 .home {
-  color: if((true), red, yellow);
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+.text-block {
+  background: url(../images/hero-image.png) no-repeat center;
+  height: 480px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tools-block {
+  display: flex;
+  flex-flow: row;
+  background-color: gray;
+  margin: auto;
+  width: 67%;
+  height: 330px;
+}
+
+.tools-block img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+  margin: 50 50 10 50px;
+}
+
+.item {
+  height: 330px;
+  width: 200px;
+  margin: 50px 100px 20px 170px;
 }
